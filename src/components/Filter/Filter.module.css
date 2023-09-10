@@ -1,0 +1,12 @@
+.label {
+    display: flex;
+    gap: 6px;
+    font-size: 20px;
+}
+
+.input {
+    border-color: blueviolet; 
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+}

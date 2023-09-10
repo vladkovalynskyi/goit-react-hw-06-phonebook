@@ -1,0 +1,32 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+    gap: 20px;
+    border: 1px solid black;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 20px;
+}
+
+.input {
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 6px;
+    background-color: rgb(238, 209, 209);
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.button:active {
+    background-color: rgb(65, 230, 166);
+}
