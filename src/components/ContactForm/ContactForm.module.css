@@ -1,32 +1,45 @@
+/* ContactForm.module.css */
+
 .form {
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    width: 300px;
-    gap: 20px;
-    border: 1px solid black;
+    max-width: 300px;
+    margin: 0 auto;
 }
-
+  
 .label {
     display: flex;
-    flex-direction: column;
-    gap: 6px;
-    font-size: 20px;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 18px;
 }
-
+  
 .input {
-    height: 30px;
-    border: 1px solid gray;
-    border-radius: 5px;
-}
-
-.button {
-    padding: 6px;
-    background-color: rgb(238, 209, 209);
-    border: 1px solid gray;
+    padding: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
     border-radius: 4px;
+    margin-left: 15px;
 }
-
-.button:active {
-    background-color: rgb(65, 230, 166);
+  
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+}
+  
+.submitBtn {
+    padding: 10px 16px;
+    background-color: #3f51b5;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.submitBtn:hover {
+    background-color: #303f9f;
 }

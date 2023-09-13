@@ -1,12 +1,21 @@
-.label {
-    display: flex;
-    gap: 6px;
-    font-size: 20px;
-}
+/* Filter.module.css */
 
-.input {
-    border-color: blueviolet; 
-    border-radius: 5px;
-    height: 30px;
-    width: 300px;
-}
+.filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .searchIcon {
+    font-size: 24px;
+    color: #ccc;
+    margin-right: 8px;
+  }
+  
+  .input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

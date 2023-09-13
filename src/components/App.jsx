@@ -1,3 +1,4 @@
+// App.js
 import React, { useState, useEffect } from 'react';
 import ContactForm from './ContactForm/ContactForm';
 import Filter from './Filter/Filter';
@@ -42,11 +43,7 @@ function App() {
   return (
     <div className="app_container">
       <h1>Phonebook</h1>
-      <ContactForm
-        contacts={contacts}
-        addContact={handleAddContact}
-        handleChange={handleFilterChange}
-      />
+      <ContactForm addContact={handleAddContact} />
 
       <h2>Contacts</h2>
       <Filter value={filter} onChange={handleFilterChange} />

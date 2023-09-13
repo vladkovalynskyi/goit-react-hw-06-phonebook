@@ -1,0 +1,47 @@
+/* ContactCard.module.css */
+
+.contactCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  background-color: #f9f9f9;
+}
+
+.contactDetails {
+  flex-grow: 1;
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.contactName {
+  font-weight: bold;
+}
+
+.contactNumber {
+  display: flex;
+  align-items: center;
+}
+
+.contactNumberIcon {
+  margin-right: 4px;
+}
+
+.deleteBtn {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.deleteBtn:hover {
+  background-color: #ff4433;
+}
